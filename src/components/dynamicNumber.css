@@ -1,0 +1,6 @@
+.dynum {
+    font-size: 1.5rem;
+    transform: scale(1.2);
+    transition: transform 2s;
+    background: inherit;
+}

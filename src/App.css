@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #ededed;
+/* styles.css */
+}
+/* Link styles */
+.a{
+    text-decoration: none;
+    position: relative; /* Required for positioning pseudo-element */
+    cursor: pointer;
+  }
+  
+  /* Underline using ::before pseudo-element */
+.a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; /* Position the underline just below the link text */
+    left: 0;
+    width: 0; /* Initially set the width to 0, so it's not visible */
+    height: 2px;
+    background-color: var(--text-color); /* Set the underline color */
+    transition: width 0.3s; /* Add a transition for smooth animation of the underline width */
+  }
+  
+  /* Underline effect on hover */
+.a:hover::after {
+    width: 80%; /* Change the width to 100% on hover to display the full underline */
+  }
+
+.a.active::after{
+    content: '';
+    position: absolute;
+    bottom: -5px; /* Position the underline just below the link text */
+    left: 0;
+    width: 80%; /* Initially set the width to 0, so it's not visible */
+    height: 2px;
+    background-color: var(--text-color); /* Set the underline color */
+    transition: width 0.3s; /* Set the underline color */
+}
+
+.b{
+  text-decoration: none;
+  position: relative; /* Required for positioning pseudo-element */
+}
+
+.b::after {
+  content: '';
+  position: absolute;
+  bottom: -5px; /* Position the underline just below the link text */
+  left: 0;
+  width:20%; /* Initially set the width to 0, so it's not visible */
+  height: 3px;
+  background-color: #0078ff; /* Set the underline color */
+  transition: width 0.3s; /* Add a transition for smooth animation of the underline width */
+}
+.c{
+  text-decoration: none;
+  position: relative; /* Required for positioning pseudo-element */
+}
+
+.c::after {
+  content: '';
+  position: absolute;
+  bottom: -5px; /* Position the underline just below the link text */
+  left: 0;
+  width:30%; /* Initially set the width to 0, so it's not visible */
+  height: 3px;
+  background-color: #0078ff; /* Set the underline color */
+  transition: width 0.3s; /* Add a transition for smooth animation of the underline width */
+}
+.d{
+  color :black
+}
+.d.active{
+  color :var(--text-color)
+}
+.bg-container{
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: auto;
+}
+@media only screen and (min-width: 768px) {
+  .bg-image {
+    background-image: url("/src/img/overlay-bg.jpg");
+    
+  }
+}
+.h-app{
+    min-height: 100vh;
+}
+
+.hero-bg{
+    background-image: url('https://t4.ftcdn.net/jpg/02/78/37/47/360_F_278374738_ypRn0utOVnebuhmpSrDiwkzFsdqEm0aa.jpg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-h-2{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.typed-cursor{
+    font-size: 2.5rem;
+}
+
+.hero-bb::before{
+
+    content: '';
+    position: absolute;
+    width: 22%;
+    height: 4px;
+    bottom: -15px;
+    background-color: #0078FF;
+
+}
+
+.custom-shadow{
+    box-shadow: .3px .3px 6px 1px rgb(207, 206, 206);
+}
+.input:focus-visible {
+  border: 2px solid #0078FF;
+  outline: none;
+}
+textarea:focus-visible {
+  border: 2px solid #0078FF;
+  outline: none;
+}

@@ -1,0 +1,49 @@
+.counter {
+    background-image: url('../assets/img/counters-bg.jpg');
+}
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* @media screen and (max-width:1024px) {
+    .bg-image {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+} */
+
+/* in use overlay */
+.overlay {
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    /* background: #0078ff; */
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+} 
+
+
+.ico-circle-white {
+  width: 40px; 
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 1rem; 
+  box-shadow: 0 0 0 7px #cde1f8;
+}

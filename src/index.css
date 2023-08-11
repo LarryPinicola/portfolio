@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+	:root {
+		/* --text-color:rgb(220 38 38);
+		--fill-color:rgb(220 38 38);
+		--fill-color-indicator:rgb(220 38 38); */
+	}
+	.theme-default{
+		--text-color:#0078ff;
+		--fill-color:#0078ff;
+		--fill-color-indicator:rgb(220 38 38);
+	}
+	.theme-flat{
+		--text-color:#1da1f5;
+		--fill-color:#1da1f5;
+		/* --fill-color-indicator:rgb(220 38 38); */
+	}
+	.theme-sunset{
+		--text-color:#f53b57;
+		--fill-color:#f53b57;
+		/* --fill-color-indicator:rgb(220 38 38);  */
+	}
+	.theme-subtle{
+		--text-color:#6eabc2;
+		--fill-color:#6eabc2;
+		/* --fill-color-indicator:rgb(220 38 38);  */
+	}
+	.theme-seafoam{
+		--text-color:#06794f;
+		 --fill-color:#06794f;
+		/* --fill-color-indicator:rgb(220 38 38);  */
+	}
+}
+.card {
+	background-color: theme('colors.white');
+	border-radius: theme('borderRadius.sm');
+	/* padding: theme('spacing.4'); */
+	box-shadow: theme('boxShadow.lg');
+  }
+
+  .card img{
+	transition: all 1s;
+	transition-timing-function: ease-in-out;
+  }
+.card:hover img{
+		transform: scale(1.3);
+}
+
+.setting{
+	/* z-index: 100; */
+	animation: first 1.5s infinite linear;
+}
+@keyframes first{
+	0%{
+		transform: translate(-50%,-50%) rotate(0deg);
+	}
+	100%{
+		transform: translate(-50%,-50%) rotate(360deg);
+	}
+}
+
+/* .bar{
+	z-index: 7;
+} */
+
+
+
+

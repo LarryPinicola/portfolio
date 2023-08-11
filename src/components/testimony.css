@@ -1,0 +1,19 @@
+.mountain {
+    background-image: url('../assets/img/overlay-bg.jpg');
+}
+
+.bg-image1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    /* background: #0078ff; */
+}
