@@ -17,7 +17,7 @@ const About = () => {
                 <div className=" flex flex-wrap items-center">
                   <span className=" text-lg font-semibold me-2">Name: </span>
                   <span className=" text-slate-500 md:text-sm lg:text-base">
-                  Zwe Kyaw Htet
+                    Zwe Kyaw Htet
                   </span>
                 </div>
                 <div className=" my-4 flex flex-wrap items-center">
@@ -82,22 +82,17 @@ const About = () => {
               <p className=" text-3xl font-semibold mb-5">About me</p>
               <div className=" w-[100px] h-[4px] bg-portfolio-fill"></div>
             </div>
-            <p className=" text-xl text-gray-600 tracking-wide font-light">
-              Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
-              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-              Praesent sapien massa, convallis a pellentesque nec, egestas non
-              nisi. Nulla porttitor accumsan tincidunt.
-            </p>
-            <p className=" text-xl text-gray-600 tracking-wide font-light py-4">
-              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-              Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum
-              ac diam sit amet quam vehicula elementum sed sit amet dui.
-              porttitor at sem.
-            </p>
-            <p className=" text-xl text-gray-600 tracking-wide font-light">
-              Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut
-              lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt.
-              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+            <p className=" text-xl text-gray-600 tracking-wide font-normal">
+              I'm a young enthusiast driven by a strong passion for designing
+              captivating websites and LIBARIES & FRAMEWORKS Bootstrap,
+              TailwindCss, React, RTKlibraries, and frameworks to explore and
+              master. Staying updated with the latest tech trends PRATICAL
+              PROJECTS Design Responsive Static Website creating compelling
+              content. The world of web development is vast, with numerous
+              languages, has become a daily habit. In essence, my path is all
+              about continuous learning, fueled by my love for technology,
+              design, and teamwork. With every website I create, I embrace the
+              joy of turning ideas into reality.
             </p>
           </div>
         </div>
